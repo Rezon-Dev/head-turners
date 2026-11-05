@@ -1,0 +1,80 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7f9ff"/>
+      <stop offset="100%" stop-color="#fceef5"/>
+    </linearGradient>
+    <linearGradient id="pink" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff80b5"/>
+      <stop offset="100%" stop-color="#e94d91"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#83c8ff"/>
+      <stop offset="100%" stop-color="#397ce8"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1050" cy="80" r="230" fill="#f8c9df" opacity=".35"/>
+  <circle cx="115" cy="580" r="230" fill="#b9dcff" opacity=".32"/>
+
+  <!-- Decorative shapes -->
+  <circle cx="1050" cy="300" r="210" fill="none" stroke="#eaa3c5" stroke-width="1.5"/>
+  <circle cx="1050" cy="300" r="180" fill="none" stroke="#8dbcf5" stroke-width="1.5"/>
+  <ellipse cx="1040" cy="520" rx="160" ry="22" fill="#b6a0b7" opacity=".2" filter="url(#shadow)"/>
+
+  <!-- Left content -->
+  <rect x="85" y="105" width="170" height="34" rx="17" fill="#ffffff" stroke="#f1b4d0"/>
+  <circle cx="105" cy="122" r="5" fill="#ed639d"/>
+  <text x="120" y="127" font-family="Arial,sans-serif" font-size="13" letter-spacing="2" fill="#9b4770">PREMIUM SALON</text>
+
+  <text x="82" y="255" font-family="Georgia,serif" font-size="76" font-weight="bold" fill="#151827">HEAD</text>
+  <text x="82" y="338" font-family="Georgia,serif" font-size="76" font-weight="bold" fill="#151827">TURNERS<tspan fill="#ed639d">.</tspan></text>
+
+  <rect x="85" y="370" width="90" height="4" rx="2" fill="url(#pink)"/>
+
+  <text x="85" y="420" font-family="Arial,sans-serif" font-size="23" fill="#50566b">Your style. Your statement.</text>
+  <text x="85" y="453" font-family="Arial,sans-serif" font-size="23" fill="#50566b">Your moment.</text>
+
+  <text x="85" y="530" font-family="Arial,sans-serif" font-size="14" letter-spacing="3" fill="#7d8294">BEAUTY • STYLE • CONFIDENCE</text>
+
+  <!-- Right artistic salon illustration -->
+  <g transform="translate(1050 300)">
+    <!-- Hair silhouette -->
+    <path d="M-112 140 C-155 65 -145 -65 -85 -130 C-40 -185 65 -175 112 -105 C165 -30 145 75 115 145 C90 110 88 55 75 15 C50 75 10 110 -20 130 C-52 165 -82 165 -112 140Z" fill="#202437"/>
+    <!-- Face -->
+    <path d="M-63 -70 C-75 -5 -57 65 -5 91 C30 105 70 56 75 0 C80 -68 40 -105 -10 -105 C-35 -105 -53 -93 -63 -70Z" fill="#f2c4ae"/>
+    <!-- Neck -->
+    <path d="M-22 80 L-20 145 L50 145 L35 75Z" fill="#eab49f"/>
+    <!-- Hair front -->
+    <path d="M-68 -66 C-54 -145 35 -154 78 -95 C45 -110 12 -80 -10 -70 C-29 -57 -45 -40 -58 -14Z" fill="#171b2a"/>
+    <path d="M65 -105 C110 -42 90 30 69 83 C95 25 103 -45 65 -105Z" fill="#343a53"/>
+    <!-- Facial detail -->
+    <path d="M-35 4 Q-20 -4 -7 4" fill="none" stroke="#563a3c" stroke-width="3" stroke-linecap="round"/>
+    <path d="M27 4 Q42 -4 55 4" fill="none" stroke="#563a3c" stroke-width="3" stroke-linecap="round"/>
+    <path d="M8 15 Q15 32 8 39" fill="none" stroke="#c38d7d" stroke-width="2"/>
+    <path d="M-3 56 Q15 66 33 54" fill="none" stroke="#b45c72" stroke-width="3" stroke-linecap="round"/>
+    <!-- Clothing -->
+    <path d="M-20 135 C-75 140 -110 170 -130 230 L120 230 C105 168 70 145 40 135 L15 165Z" fill="#6e9edb"/>
+    <path d="M-20 135 L15 165 L40 135" fill="none" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Sparkles -->
+  <g fill="#e95d9a">
+    <path d="M920 85 L926 105 L946 111 L926 117 L920 137 L914 117 L894 111 L914 105Z"/>
+    <path d="M1120 170 L1125 184 L1139 189 L1125 194 L1120 208 L1115 194 L1101 189 L1115 184Z"/>
+  </g>
+  <g fill="#5599e9">
+    <path d="M875 450 L880 465 L895 470 L880 475 L875 490 L870 475 L855 470 L870 465Z"/>
+  </g>
+
+  <!-- Bottom line -->
+  <path d="M85 575 H1115" stroke="#d9dce8" stroke-width="1"/>
+  <text x="85" y="602" font-family="Arial,sans-serif" font-size="12" letter-spacing="2" fill="#888da0">HEAD TURNERS SALON</text>
+  <text x="1115" y="602" text-anchor="end" font-family="Arial,sans-serif" font-size="12" letter-spacing="2" fill="#888da0">STYLE THAT SPEAKS</text>
+</svg>
